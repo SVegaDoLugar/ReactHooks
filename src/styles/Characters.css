@@ -1,0 +1,64 @@
+@import 'styleVars';
+
+body{
+    background-color: var(--varBackgroudColor);
+}
+.Characters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.characterSection{
+    display: table;
+    width: 25%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.characterSection p{
+    font-size: 1.5rem;
+}
+.characterName{
+    font-size: 2rem;
+}
+.characterImg{
+    max-width: 75%;
+    /*animation: App-logo-spin infinite 20s linear;*/
+    border-radius: 50%;
+    border: solid 0.25rem;
+}
+.mainList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.favList{
+    list-style: none;
+    margin: 0rem 1rem;
+    display: inline-block;
+}
+.favImg{
+    max-width: 50%;
+    border-radius: 50%;
+    border: solid 0.125rem;
+}
+.Search{
+    width: 100vw;
+    height: auto;
+    margin: 2rem;
+}
+.themeButtonFavoritesAdd{
+    background-color: rgb(19, 99, 19);
+    color: white;
+    padding: 0.25rem;
+}
+.themeButtonFavoritesRemove{
+    /* background-color: rgb(255, 21, 21);
+    color: white; */
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 0.25rem;
+}
